@@ -1,0 +1,42 @@
+.star_holder .first_half_star {
+    margin-right: -4px;
+}
+
+.star_holder .second_half_star {
+    transform: scale(-1, 1);
+    margin-left: -3px;
+}
+
+.star_holder .fa-star-half {
+    color: gray;
+    font-size: 30px;
+    padding: 0 !important;
+}
+
+.read_right_enabled>.star_holder .fa-star-half:hover,
+.read_right_enabled>.star_holder .fa-star-half:hover~.fa-star-half {
+    color: rgb(240, 187, 0);
+}
+
+.flip_rating_holder {
+    transform: scale(-1, 1);
+    float: left;
+}
+
+.read_right_enabled>.star_holder:hover~.star_holder>.fa-star-half {
+    color: rgb(240, 187, 0);
+}
+
+.star_holder .fill_star {
+    color: rgb(240, 187, 0);
+}
+
+.star_holder {
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.default_cursor {
+    cursor: default;
+}
